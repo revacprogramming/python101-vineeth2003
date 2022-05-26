@@ -4,4 +4,4 @@ try :
   pay = rate * hrs
   print("pay ")
 except :
-  print("Enter the numeric value, pay ")
+  print(" Enter the numeric value, pay ")
