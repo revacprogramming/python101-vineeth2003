@@ -1,15 +1,27 @@
 
 
 class Menu(dict):
-    """fill in class definition here"""
-
+  def food(self,idly,vada):
+    self.idly = self.idly + 20
+    print("idly", self.idly)
+    self.vada = self.vada + 20
+    print("vada", self.vada)
 
 class Order:
-    """fill in class definition here"""
+  def item(self,vada,pongal):
+    self.vada = self.vada + 2
+    print("vada", self.vada)
+    self.pongal = self.pongal + 2
+    print("pongal", self.pongal)
+  
 
 
 class Bill:
-    """fill in class definition here"""
+  def total(self,m,o):
+    self.m = self.idly + self.vada
+    print("bill of m", self.m)
+    self.o = self.vada + self.pongal
+    print("bill of o", self.o)
 
 
 m = Menu()
