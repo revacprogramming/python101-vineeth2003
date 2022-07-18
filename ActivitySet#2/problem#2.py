@@ -1,16 +1,18 @@
 
 def add(a, b):
-    pass  # ...
+ (a,b) = input_two_numbers()
 
 
 def output(a, b, sum):
-    pass  # ...
+  sum = a + b
 
 
 def main():
     a, b = input_two_numbers()
+    a = int(input("enter a number"))
+    b = int(input("enter a number"))
     sum = add(a, b)
-
+    sum = a + b
     output(a, b, sum)
 
 
